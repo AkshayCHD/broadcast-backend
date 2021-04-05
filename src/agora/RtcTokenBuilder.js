@@ -1,5 +1,5 @@
-const AccessToken = require('./AccessToken').AccessToken
-const Priviledges = require('./AccessToken').priviledges
+const AccessToken = require('./AccessToken.js').AccessToken
+const Priviledges = require('./AccessToken.js').priviledges
 
 const Role = {
     // DEPRECATED. Role::ATTENDEE has the same privileges as Role.PUBLISHER.
